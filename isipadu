@@ -1,0 +1,10 @@
+#Atur cara mengira isi padu silinder
+#Isytihar pemalar pi
+pi=3.142
+#input
+jejari=float(input("Masukkan jejari silinder:"))
+tinggi=float(input("Masukkan tinggi silinder:"))
+#proses
+isi_padu=pi*jejari*jejari*tinggi
+#output
+print("Isi padu silinder ialah",round(isi_padu,2))
